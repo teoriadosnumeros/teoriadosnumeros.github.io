@@ -252,22 +252,24 @@ Aqui, como “2” e “5” dividiram ambos os números, temos:
 </p>
 Vale ainda ressaltar que, assim como no método anterior, aqui você também pode calcular o MDC de mais de dois números ao mesmo tempo. Para isso, basta seguir o mesmo procedimento e pegar o produto dos fatores primos que dividiram todos os números.
 
-
-
-
-
-
-
-
 ### 3.2.3) Cálculo pelo algoritmo de Euclides
 O algoritmo de Euclides é um método extremamente interessante e eficiente para calcular o MDC entre dois números. Na realidade, acredita-se que o mesmo foi criado cerca de 2300 anos atrás, antes mesmo da criação da álgebra, em uma época na qual os gregos usavam comprimentos para representar números.
 
 A principal ideia do algoritmo em questão o fato que, para dados a e b inteiros, temos que:
-
+<p align="center">
+  <img width="275" height="75" src="https://github.com/teoriadosnumeros/teoriadosnumeros.github.io/blob/main/Imgs/i3.png">
+</p>
 onde:
+
+<p align="center">
+  <img width="250" height="50" src="https://github.com/teoriadosnumeros/teoriadosnumeros.github.io/blob/main/Imgs/i4.png">
+</p>
 
 com:
  
+ <p align="center">
+  <img width="140" height="150" src="https://github.com/teoriadosnumeros/teoriadosnumeros.github.io/blob/main/Imgs/i5.png">
+</p>
 
 
 Em um primeiro momento esse algoritmo pode parecer pouco útil, uma vez que nosso objetivo era calcular o mdc(a,b) e agora temos que calcular outro  MDC. Contudo, a ideia aqui é que usaremos tal algoritmo de forma recursiva, até que o termo da direita seja do tipo mdc(k,0) (sendo tal valor obviamente igual a k).
@@ -275,8 +277,14 @@ Em um primeiro momento esse algoritmo pode parecer pouco útil, uma vez que noss
 Aplicando este algoritmo no exemplo dado anteriormente, temos que:
 
 Como:
-
+<p align="center">
+  <img width="275" height="75" src="https://github.com/teoriadosnumeros/teoriadosnumeros.github.io/blob/main/Imgs/i6.png">
+</p>
 segue:
+
+<p align="center">
+  <img width="275" height="75" src="https://github.com/teoriadosnumeros/teoriadosnumeros.github.io/blob/main/Imgs/i7.png">
+</p>
 
 
  
@@ -288,19 +296,28 @@ Visando complementar nosso estudo, o presente capítulo irá abordar algumas pro
  
 ### 3.3.1)Propriedade 01
 Tese:
-
+<p align="center">
+  <img width="275" height="75" src="https://github.com/teoriadosnumeros/teoriadosnumeros.github.io/blob/main/Imgs/i8.png">
+</p>
 
 
 Demonstração:
 
+
 Seguindo a definição exposta em 3.1, o MDC de dois números é definido como o maior termo do conjunto formado pelos divisores comuns de “a” e “b”. Sendo assim, temos:
 
-
+<p align="center">
+  <img width="275" height="75" src="https://github.com/teoriadosnumeros/teoriadosnumeros.github.io/blob/main/Imgs/i9.png">
+</p>
 
 Contudo, também é fácil ver que:
-
+<p align="center">
+  <img width="275" height="75" src="https://github.com/teoriadosnumeros/teoriadosnumeros.github.io/blob/main/Imgs/i10.png">
+</p>
 Uma vez que:
-
+<p align="center">
+  <img width="275" height="75" src="https://github.com/teoriadosnumeros/teoriadosnumeros.github.io/blob/main/Imgs/i11.png">
+</p>
 
 ### 3.3.2)Propriedade 02
 Tese:
