@@ -242,10 +242,14 @@ Apesar de correto, o procedimento foi pouco eficiente. Dessa forma, agora falare
 O método dos fatores primos provavelmente é o algoritmo mais conhecido para o cálculo do MDC. A ideia aqui é simples: realize o processo de decomposição em primos dos números cujo MDC você quer calcular e multiplique os primos que dividiram ambos os números. 
 
 Aplicando tal lógica ao exemplo dado anteriormente, temos:
-
+<p align="center">
+  <img width="175" height="300" src="https://github.com/teoriadosnumeros/teoriadosnumeros.github.io/blob/main/Imgs/i1.png">
+</p>
 
 Aqui, como “2” e “5” dividiram ambos os números, temos:
-
+<p align="center">
+  <img width="250" height="50" src="https://github.com/teoriadosnumeros/teoriadosnumeros.github.io/blob/main/Imgs/i2.png">
+</p>
 Vale ainda ressaltar que, assim como no método anterior, aqui você também pode calcular o MDC de mais de dois números ao mesmo tempo. Para isso, basta seguir o mesmo procedimento e pegar o produto dos fatores primos que dividiram todos os números.
 
 
