@@ -382,6 +382,7 @@ int main(){
 ### 3.4.2)Cálculo pelo algoritmo de Euclides
 Nosso segundo código também receberá dois números do usuário e irá calcular o MDC entre eles, mas agora tal valor será obtido pelo algoritmo de Euclides. Caso o leitor queira rever a teoria por trás deste método, basta visitar a seção 3.2.3. Dessa forma, segue o código comentado:
 
+```C++
 //Importamos as bibliotecas relevantes:
 #include <bits/stdc++.h>
  
@@ -407,7 +408,7 @@ int main(){
     cout<<mdc(a,b);
     return 0;
 }
-
+```
 
 
 # 4) Aritmética Modular
